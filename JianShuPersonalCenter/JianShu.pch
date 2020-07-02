@@ -1,0 +1,25 @@
+//
+//  JianShu.pch
+//  JianShuPersonalCenter
+//
+//  Created by 颜仁浩 on 2020/6/30.
+//  Copyright © 2020 Jackey. All rights reserved.
+//
+
+#ifndef JianShu_pch
+#define JianShu_pch
+
+#define screenW  UIScreen.mainScreen.bounds.size.width
+#define screenH  UIScreen.mainScreen.bounds.size.height
+#define navH     88
+#define titleH   60
+#define bottomSafeHeight 34
+#define PersonalCenterHeaderH 400
+
+// 通知
+#define ARRIVETOPNOTIFICATION @"ArriveTopNotification"
+#define LEAVETOPNOTIFICATION  @"LeaveTopNotification"
+#define CHANGECHILDCONTROLLERINDEXNOTIFICATION @"ChangeChildControllerIndexNotification"
+#define MAINVIEWSCROLLABLENOTIFICATION @"MainViewScrollableNotification"
+
+#endif /* JianShu_pch */

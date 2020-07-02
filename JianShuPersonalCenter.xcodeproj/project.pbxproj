@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3101FB3E24AC2E25008E3F89 /* BaseChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3101FB3D24AC2E25008E3F89 /* BaseChildViewController.m */; };
+		3101FB4124AC3E28008E3F89 /* MainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3101FB4024AC3E28008E3F89 /* MainTableView.m */; };
+		3101FB4624AC6108008E3F89 /* SegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3101FB4524AC6108008E3F89 /* SegmentView.m */; };
+		3101FB4924AC8496008E3F89 /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3101FB4824AC8496008E3F89 /* PersonalCenterViewController.m */; };
+		3148964224AD107E00B762E4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3148964124AD107E00B762E4 /* DetailViewController.m */; };
+		31C0349524AA50D50015971D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C0349424AA50D50015971D /* AppDelegate.m */; };
+		31C0349824AA50D50015971D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C0349724AA50D50015971D /* SceneDelegate.m */; };
+		31C0349E24AA50D50015971D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C0349C24AA50D50015971D /* Main.storyboard */; };
+		31C034A024AA50D70015971D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C0349F24AA50D70015971D /* Assets.xcassets */; };
+		31C034A324AA50D70015971D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C034A124AA50D70015971D /* LaunchScreen.storyboard */; };
+		31C034A624AA50D70015971D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C034A524AA50D70015971D /* main.m */; };
+		31C034AE24AA51000015971D /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C034AD24AA50FF0015971D /* UserInfoView.m */; };
+		31C034B124AA51260015971D /* ControllerTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C034B024AA51260015971D /* ControllerTitleView.m */; };
+		31C034B324AA514F0015971D /* UserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C034B224AA514F0015971D /* UserInfoView.xib */; };
+		31C034C024AA650E0015971D /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C034BF24AA650E0015971D /* OneViewController.m */; };
+		31C034C424AA6B4B0015971D /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C034C324AA6B4B0015971D /* TwoViewController.m */; };
+		31C034C724AA6B530015971D /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C034C624AA6B530015971D /* ThreeViewController.m */; };
+		31C034CA24AA6B590015971D /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C034C924AA6B590015971D /* FourViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3101FB3C24AC2E25008E3F89 /* BaseChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseChildViewController.h; sourceTree = "<group>"; };
+		3101FB3D24AC2E25008E3F89 /* BaseChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseChildViewController.m; sourceTree = "<group>"; };
+		3101FB3F24AC3E28008E3F89 /* MainTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableView.h; sourceTree = "<group>"; };
+		3101FB4024AC3E28008E3F89 /* MainTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableView.m; sourceTree = "<group>"; };
+		3101FB4424AC6108008E3F89 /* SegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentView.h; sourceTree = "<group>"; };
+		3101FB4524AC6108008E3F89 /* SegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentView.m; sourceTree = "<group>"; };
+		3101FB4724AC8496008E3F89 /* PersonalCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCenterViewController.h; sourceTree = "<group>"; };
+		3101FB4824AC8496008E3F89 /* PersonalCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
+		3148964024AD107E00B762E4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3148964124AD107E00B762E4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		31C0349024AA50D50015971D /* JianShuPersonalCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JianShuPersonalCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C0349324AA50D50015971D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31C0349424AA50D50015971D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31C0349624AA50D50015971D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		31C0349724AA50D50015971D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		31C0349D24AA50D50015971D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31C0349F24AA50D70015971D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31C034A224AA50D70015971D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31C034A424AA50D70015971D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C034A524AA50D70015971D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31C034AC24AA50FF0015971D /* UserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
+		31C034AD24AA50FF0015971D /* UserInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoView.m; sourceTree = "<group>"; };
+		31C034AF24AA51260015971D /* ControllerTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllerTitleView.h; sourceTree = "<group>"; };
+		31C034B024AA51260015971D /* ControllerTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerTitleView.m; sourceTree = "<group>"; };
+		31C034B224AA514F0015971D /* UserInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoView.xib; sourceTree = "<group>"; };
+		31C034BE24AA650E0015971D /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		31C034BF24AA650E0015971D /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		31C034C124AA69D00015971D /* JianShu.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianShu.pch; sourceTree = "<group>"; };
+		31C034C224AA6B4B0015971D /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		31C034C324AA6B4B0015971D /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		31C034C524AA6B530015971D /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		31C034C624AA6B530015971D /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		31C034C824AA6B590015971D /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		31C034C924AA6B590015971D /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31C0348D24AA50D50015971D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31C0348724AA50D50015971D = {
+			isa = PBXGroup;
+			children = (
+				31C0349224AA50D50015971D /* JianShuPersonalCenter */,
+				31C0349124AA50D50015971D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31C0349124AA50D50015971D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C0349024AA50D50015971D /* JianShuPersonalCenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31C0349224AA50D50015971D /* JianShuPersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				31C034BD24AA64E20015971D /* childVC */,
+				31C0349324AA50D50015971D /* AppDelegate.h */,
+				31C0349424AA50D50015971D /* AppDelegate.m */,
+				3148964024AD107E00B762E4 /* DetailViewController.h */,
+				3148964124AD107E00B762E4 /* DetailViewController.m */,
+				31C0349624AA50D50015971D /* SceneDelegate.h */,
+				31C0349724AA50D50015971D /* SceneDelegate.m */,
+				31C0349C24AA50D50015971D /* Main.storyboard */,
+				31C0349F24AA50D70015971D /* Assets.xcassets */,
+				31C034A124AA50D70015971D /* LaunchScreen.storyboard */,
+				31C034A424AA50D70015971D /* Info.plist */,
+				31C034A524AA50D70015971D /* main.m */,
+				31C034C124AA69D00015971D /* JianShu.pch */,
+			);
+			path = JianShuPersonalCenter;
+			sourceTree = "<group>";
+		};
+		31C034BD24AA64E20015971D /* childVC */ = {
+			isa = PBXGroup;
+			children = (
+				3101FB3F24AC3E28008E3F89 /* MainTableView.h */,
+				3101FB4024AC3E28008E3F89 /* MainTableView.m */,
+				31C034AF24AA51260015971D /* ControllerTitleView.h */,
+				31C034B024AA51260015971D /* ControllerTitleView.m */,
+				31C034AC24AA50FF0015971D /* UserInfoView.h */,
+				31C034AD24AA50FF0015971D /* UserInfoView.m */,
+				31C034B224AA514F0015971D /* UserInfoView.xib */,
+				3101FB4424AC6108008E3F89 /* SegmentView.h */,
+				3101FB4524AC6108008E3F89 /* SegmentView.m */,
+				3101FB4724AC8496008E3F89 /* PersonalCenterViewController.h */,
+				3101FB4824AC8496008E3F89 /* PersonalCenterViewController.m */,
+				3101FB3C24AC2E25008E3F89 /* BaseChildViewController.h */,
+				3101FB3D24AC2E25008E3F89 /* BaseChildViewController.m */,
+				31C034BE24AA650E0015971D /* OneViewController.h */,
+				31C034BF24AA650E0015971D /* OneViewController.m */,
+				31C034C224AA6B4B0015971D /* TwoViewController.h */,
+				31C034C324AA6B4B0015971D /* TwoViewController.m */,
+				31C034C524AA6B530015971D /* ThreeViewController.h */,
+				31C034C624AA6B530015971D /* ThreeViewController.m */,
+				31C034C824AA6B590015971D /* FourViewController.h */,
+				31C034C924AA6B590015971D /* FourViewController.m */,
+			);
+			path = childVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31C0348F24AA50D50015971D /* JianShuPersonalCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C034A924AA50D70015971D /* Build configuration list for PBXNativeTarget "JianShuPersonalCenter" */;
+			buildPhases = (
+				31C0348C24AA50D50015971D /* Sources */,
+				31C0348D24AA50D50015971D /* Frameworks */,
+				31C0348E24AA50D50015971D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JianShuPersonalCenter;
+			productName = JianShuPersonalCenter;
+			productReference = 31C0349024AA50D50015971D /* JianShuPersonalCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31C0348824AA50D50015971D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Jackey;
+				TargetAttributes = {
+					31C0348F24AA50D50015971D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 31C0348B24AA50D50015971D /* Build configuration list for PBXProject "JianShuPersonalCenter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31C0348724AA50D50015971D;
+			productRefGroup = 31C0349124AA50D50015971D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31C0348F24AA50D50015971D /* JianShuPersonalCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31C0348E24AA50D50015971D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C034A324AA50D70015971D /* LaunchScreen.storyboard in Resources */,
+				31C034A024AA50D70015971D /* Assets.xcassets in Resources */,
+				31C0349E24AA50D50015971D /* Main.storyboard in Resources */,
+				31C034B324AA514F0015971D /* UserInfoView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C0348C24AA50D50015971D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C0349524AA50D50015971D /* AppDelegate.m in Sources */,
+				3101FB4924AC8496008E3F89 /* PersonalCenterViewController.m in Sources */,
+				31C034A624AA50D70015971D /* main.m in Sources */,
+				31C034AE24AA51000015971D /* UserInfoView.m in Sources */,
+				31C0349824AA50D50015971D /* SceneDelegate.m in Sources */,
+				31C034C424AA6B4B0015971D /* TwoViewController.m in Sources */,
+				3101FB4124AC3E28008E3F89 /* MainTableView.m in Sources */,
+				3101FB4624AC6108008E3F89 /* SegmentView.m in Sources */,
+				31C034B124AA51260015971D /* ControllerTitleView.m in Sources */,
+				31C034C024AA650E0015971D /* OneViewController.m in Sources */,
+				31C034CA24AA6B590015971D /* FourViewController.m in Sources */,
+				3101FB3E24AC2E25008E3F89 /* BaseChildViewController.m in Sources */,
+				31C034C724AA6B530015971D /* ThreeViewController.m in Sources */,
+				3148964224AD107E00B762E4 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31C0349C24AA50D50015971D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C0349D24AA50D50015971D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31C034A124AA50D70015971D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C034A224AA50D70015971D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31C034A724AA50D70015971D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31C034A824AA50D70015971D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31C034AA24AA50D70015971D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "${SRCROOT}/JianShuPersonalCenter/JianShu.pch";
+				INFOPLIST_FILE = JianShuPersonalCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackey.JianShuPersonalCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31C034AB24AA50D70015971D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "${SRCROOT}/JianShuPersonalCenter/JianShu.pch";
+				INFOPLIST_FILE = JianShuPersonalCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackey.JianShuPersonalCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C0348B24AA50D50015971D /* Build configuration list for PBXProject "JianShuPersonalCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C034A724AA50D70015971D /* Debug */,
+				31C034A824AA50D70015971D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C034A924AA50D70015971D /* Build configuration list for PBXNativeTarget "JianShuPersonalCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C034AA24AA50D70015971D /* Debug */,
+				31C034AB24AA50D70015971D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31C0348824AA50D50015971D /* Project object */;
+}
